@@ -14,12 +14,18 @@ main {
     padding: 50px 0px; /* 50px para cima e para baixo, 0 para laterais*/
 }
 
+#texto{
+    font-size: 14px;
+}
+
 .logo {
     width: 150px;
+
 }
 
 .login {
     width: 300px;
+    background-color: white;
     border: 1px solid #ccc;
     padding: 40px 20px;
     margin: 30px;
@@ -30,8 +36,8 @@ main {
     height: 30px;
     margin: 7px 0;
     padding: 5px;
-    text-align: center;
-    border-radius: 6px; /* arredondar elementos */
+    text-align: justify;
+    border-radius: 3px; /* arredondar elementos */
     border: 1px solid #ccc;
 }
 
@@ -42,4 +48,63 @@ main {
     margin: 20px 0;
     width: 100%;
     border: none;
+    border-radius: 3px;
 }
+
+.cta-cadastre {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+/* registro.html */
+
+.logo-registro {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.registro {
+    width: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    margin: 30px;
+}
+
+.registro form input {
+    width: 100%;
+    height: 30px;
+    margin: 7px 0;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 3px; /* arredondar elementos */
+    border: 1px solid #ccc;
+}
+
+.registro form button {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+}
+
+.registro form p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.cta-conecte {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
